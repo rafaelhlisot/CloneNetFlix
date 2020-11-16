@@ -44,7 +44,7 @@ export default () => {
     }, []);
 
     return (
-        <div classNmae="page">
+        <div className="page">
             <Header black={blackHeader} />
             {featuredData &&
                 <FeaturedMovie item={featuredData} />
